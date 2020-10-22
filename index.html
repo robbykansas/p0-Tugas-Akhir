@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="./style.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rekomendasi Komik</title>
+</head>
+<body>
+    <h1 class="center">Rekomendasi Komik</h1>
+    <div id="optionChoice" class="center">
+        <h2 id="chooseGenre" class="center"></h2>
+        <img id="imgKomik">
+        <p id="sinopsis" class="center"></p>
+        <button id="option1" onclick="optionChoosen1()"></button>
+        <button id="option2" onclick="optionChoosen2()"></button>
+        <div class="center">
+            <button id="reset">Reset</button>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+    <script>getGenre()</script>
+</body>
+</html>

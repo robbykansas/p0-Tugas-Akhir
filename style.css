@@ -1,0 +1,68 @@
+body {
+    background-image: url("./background-book.jpg");
+}
+
+h1 {
+    font-family: cursive;
+    color: skyblue;
+}
+
+#optionChoice {
+    width: 50%;
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+    overflow: auto;
+    border-radius: 25px;
+    padding-bottom: 200px;
+}
+
+.center {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: skyblue
+}
+a:hover {
+    color: skyblue
+}
+
+h2{
+    font-family: cursive;
+    color: skyblue;
+}
+
+#optionChoice button {
+    width: 300px;
+    height: 200px;
+    font-size: x-large;
+    font-weight: bolder;
+    background-image: url("https://www.sopiyudin.com/wp-content/uploads/2019/08/background-buku-statistik.png");
+    color: skyblue;
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    font-family: cursive;
+}
+
+#reset {
+    height: 100px !important;
+    width: 200px !important;
+}
+
+#imgKomik {
+    width:200px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    font-family: cursive;
+}
